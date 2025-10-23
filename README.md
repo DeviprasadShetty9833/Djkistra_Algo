@@ -20,13 +20,9 @@
 
 ---
 
-# Stack Using Linked List
+# Djkistra Algorithm
 
-📂 Source code to implement a Stack data structure using a Linked List ( file : [src.c](https://github.com/DeviprasadShetty9833/Stack.c/blob/3042d3b7210bfa0983b9baeb8796131376fa9f83/src/Stack_using_Linked_List.c) )
-
-# Stack Using Array
-
-📂 Source code to implement a Stack data structure using an Array ( file : [src.c](https://github.com/DeviprasadShetty9833/Stack.c/blob/027f8a82da96a8069a7457b443ac5d853a41f5ac/src/Stack_using_Array.c) )
+📂 Source code to implement a Djkistra Algorithm ( file : [src.c]() )
 
 <table>  
 <tr><td>  
