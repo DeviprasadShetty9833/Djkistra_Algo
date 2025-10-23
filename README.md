@@ -22,7 +22,7 @@
 
 # Djkistra Algorithm
 
-📂 Source code to implement a Djkistra Algorithm ( file : [src.c]() )
+📂 Source code to implement a Djkistra Algorithm ( file : [src.c](https://github.com/DeviprasadShetty9833/Djkistra_Algo/blob/443d58824dcc70d2ac21490bf013fe3cb622a85b/src/Djkistra.c) )
 
 <table>  
 <tr><td>  
