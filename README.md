@@ -77,6 +77,29 @@
 
 ---
 
+*Example:*
+
+```html
+
+Vertices - 7 (A, B, C, D, E, F, G)
+Edges - 11
+Weights / Distance : AC - 3 , CD - 4 , DB - 1 , BG - 2 , GF - 2 , FA - 2 , CF - 2 , CE - 1 , FE - 3 , EB - 2 , FB - 6  
+
+    C ------- D
+ /  |  \        \
+A   |   E ------ B
+\   |   /     / /
+ \  |  /   /  /
+  \ | / /    /
+    F ---- G
+
+
+Source - u , Vertex - v , Visited vertices - VV
+
+u = A 
+```
+
+
 <table>
 <tr><td>
 
