@@ -75,6 +75,9 @@
 </td></tr>  
 </table>  
 
+<table>
+<tr><td>
+
 <br> ![4.](https://img.shields.io/badge/_4]_-Push_Operation-000080?style=for-the-badge&logo=C&logoColor=white)   
 
 *Code:*
@@ -123,6 +126,3 @@ Stack: [10, 20] (20 is on top)
 </table>  
 
 ---
-
-<table>
-<tr><td>
