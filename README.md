@@ -87,8 +87,11 @@
 
 ```c
 
-#include <stdio.h>   // For printf and scanf  
-#include <stdlib.h>  // For exit()
+#include <stdio.h>
+#include <limits.h>
+
+#define MAX 100
+#define INF INT_MAX
 
 ```
 
