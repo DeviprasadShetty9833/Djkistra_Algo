@@ -96,7 +96,14 @@ A   |   E ------ B
 
 Source - u , Vertex - v , Visited vertices - VV
 
-u = A 
+1]
+u = A
+v = C , F
+VV = A
+
+select F
+
+
 ```
 
 
