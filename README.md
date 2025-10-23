@@ -75,88 +75,19 @@
 </td></tr>  
 </table>  
 
----
-
-<table>
-<tr><td>
-
-<br> ![1.](https://img.shields.io/badge/_1]_-Headers-000080?style=for-the-badge&logo=C&logoColor=white)   
-
+<br> ![4.](https://img.shields.io/badge/_4]_-Push_Operation-000080?style=for-the-badge&logo=C&logoColor=white)   
 
 *Code:*
 
 ```c
 
-#include <stdio.h>   // For printf and scanf  
-#include <stdlib.h>  // For exit()
-
-```
-
-*In Plain English:*
-
-> "These are my toolkits. stdio.h helps me talk to you (input/output), and stdlib.h helps me quit when things go wrong."
-
-</td></tr>  
-</table>  
-
----
-
-<table>
-<tr><td>
-
-<br> ![2.](https://img.shields.io/badge/_2]_-Define_Stack-000080?style=for-the-badge&logo=C&logoColor=white)   
-
-
-*Code:*
-
-```c
-
-#define MAX 3   // Maximum size of the stack
-
-typedef struct {
-    int arr[MAX];   // Array to hold stack elements
-    int top;        // Index of the top element
-} Stack;
-
-```
-
-*Explanation:*
-
-> - MAX defines the stack’s capacity.
-> - arr[MAX] is the container holding stack elements.
-> - top keeps track of where the top element is (starts at -1 when empty).
-
-*Example:*
-
-```html
-MAX = 3 : arr[3]
-
-        2 |_______|   \
-        1 |_______|    |- arr
-        0 |_______|   /
-top -> -1
-```
-
-*In Plain English:*
-
-> "Think of me as a stack of plates. arr is the plate rack, and top tells me which plate is on the very top. Initially, top = -1, meaning the rack is empty."
-
-</td></tr>  
-</table>  
-
----
-
-<table>
-<tr><td>
-
-<br> ![3.](https://img.shields.io/badge/_3]_-Initialize_Stack-000080?style=for-the-badge&logo=C&logoColor=white)   
-
-*Code:*
-
-```c
-
-void initStack(Stack *s) {
-    s->top = -1;   // Empty stack
+void push(Stack *s, int data) {
+    if (s->top == MAX - 1) {
+        printf("Stack Overflow! Cannot push %d\n", data);
+        return;
+    }
+    s->arr[++(s->top)] = data;
+    printf("%d pushed into stack\n", data);
 }
 
 ```
@@ -165,6 +96,33 @@ void initStack(Stack *s) {
 
 ```html
 
-1. Set s->top = -1.
+1. Check if stack is full → if yes, print “Overflow”.
+2. Increment top.
+3. Place data at arr[top].
 
 ```
+
+*Example:*
+
+```html
+
+Before push: [ ] (top = -1)
+
+Push 10 → arr[0] = 10, top = 0
+Push 20 → arr[1] = 20, top = 1
+
+Stack: [10, 20] (20 is on top)
+
+```
+
+*In Plain English:*
+
+> "I check if the rack is full. If not, I place your plate on the top and move the marker up. Voilà — plate stacked!"
+
+</td></tr>  
+</table>  
+
+---
+
+<table>
+<tr><td>
