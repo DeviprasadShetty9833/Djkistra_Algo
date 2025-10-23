@@ -75,6 +75,32 @@
 </td></tr>  
 </table>  
 
+---
+
+<table>
+<tr><td>
+
+<br> ![1.](https://img.shields.io/badge/_1]_-Headers-000080?style=for-the-badge&logo=C&logoColor=white)   
+
+
+*Code:*
+
+```c
+
+#include <stdio.h>   // For printf and scanf  
+#include <stdlib.h>  // For exit()
+
+```
+
+*In Plain English:*
+
+> "These are my toolkits. stdio.h helps me talk to you (input/output), and stdlib.h helps me quit when things go wrong."
+
+</td></tr>  
+</table>  
+
+---
+
 <table>
 <tr><td>
 
