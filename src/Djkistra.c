@@ -74,6 +74,7 @@ int main() {
     printf("Enter number of edges: ");
     scanf("%d", &e);
 
+    printf("1st Vertex is 0")
     printf("Enter weights for edges u & v (u v w):\n");
     for (int i = 0; i < e; i++) {
         int u, v, w;
