@@ -27,9 +27,7 @@
 
 <table>  
 <tr><td>  
-  ⏺️ Dijkstra's Algorithm is a **graph search algorithm** that solves the **single-source shortest path problem** for a graph with **non-negative edge weights**.
-
-  ⏺️ It finds the shortest path from a designated **starting node (source node)** to **all other nodes** in the graph.
+  ⏺️ Dijkstra's Algorithm is a graph search algorithm that solves the single-source shortest path problem for a graph with non-negative edge weights.
 
   ⏺️ It is a **Greedy algorithm**. At each step, it chooses the node that appears to be closest to the source
 
