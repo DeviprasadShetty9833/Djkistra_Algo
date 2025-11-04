@@ -32,13 +32,12 @@
   ⏺️ At each step, it selects the nearest unvisited node from the source.
 
   ⏺️ It records:
- - The shortest distance to each node.
- - The previous node for reconstructing the path.
+  - The shortest distance to each node.
+  - The previous node for reconstructing the path.
 
  🟠 Key Points:
-
-- Works for both directed and undirected graphs.
-- All edge weights must be non-negative.
+ - Works for both directed and undirected graphs.
+ - All edge weights must be non-negative.
 
 <details>  
   <summary>Click to expand 🔻</summary>  
