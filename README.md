@@ -27,17 +27,18 @@
 
 <table>  
 <tr><td>  
-  ⏺️ Dijkstra's Algorithm is a graph search algorithm that solves the single-source shortest path problem for a graph with non-negative edge weights.
+  ⏺️ Dijkstra’s Algorithm is a greedy graph search method used to find the shortest path from a single source to all other nodes in a graph with non-negative edge weights.
 
-  ⏺️ It is a **Greedy algorithm**. At each step, it chooses the node that appears to be closest to the source
+  ⏺️ At each step, it selects the nearest unvisited node from the source.
 
-  ⏺️ The algorithm produces two key pieces of information for each node:
-     -  The **shortest distance** from the source node to that node.
-     -  The **previous node** that leads to this shortest path, allowing the entire path sequence to be reconstructed.
+  ⏺️ It records:
+ - The shortest distance to each node.
+ - The previous node for reconstructing the path.
 
-Key Requirements
-- All edge weights must be zero or positive.
-- The algorithm works on both directed and undirected graphs.
+ 🟠 Key Points:
+
+- Works for both directed and undirected graphs.
+- All edge weights must be non-negative.
 
 <details>  
   <summary>Click to expand 🔻</summary>  
