@@ -27,7 +27,7 @@
 
 <table>  
 <tr><td>  
-  ⏺️ Dijkstra’s Algorithm is a greedy graph search method used to find the shortest path from a single source to all other nodes in a graph with non-negative edge weights.
+  ⏺️ Dijkstra’s Algorithm is a greedy graph search method used to find the shortest path from a single source to all other nodes in a graph.
 
   ⏺️ At each step, it selects the nearest unvisited node from the source.
 
